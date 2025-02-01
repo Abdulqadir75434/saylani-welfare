@@ -151,27 +151,53 @@ li{
     opacity: 0.9;
 }
 .main{
-    margin-top: 200px;
+    
+    padding: 5px; 
+    display: flex;
+    justify-content: space-between;
+  }
+  .img6{
+    width: 460px;
+    height: 530px;
+    margin-top: 25px;
   }
 .main-1{
-    border: 1px solid black;
+    border: 1px solid transparent;
     width: 616px;
     height: 560px;
     font-family: "Poppins", serif;
     font-weight: 400;
     font-style: normal;
+    color: #000000D9;
+    margin-top: 120px;
 }
 h1{
     font-size: 38px;
 }
 h3{
     font-size: 24px;
-    p
+    padding-top: 8px;
+}
+.pera-1{
+    font-size: 16px;
+    padding-top: 8px;
 }
 .span1{
     color: #28a745;
 }
-
+.explore-btn{
+    width: 155px;
+    height: 40px;
+    background-color: white;
+    border-color: #666666a5;
+    /* padding: 15px 40px;  */
+    font-size: 14px;
+}
+#icon3{
+    width: 18px;
+    height: 18px;
+    margin: 0px 0px 0px 10px;
+}
 
 /* Responsive Design */
 @media (max-width: 1199px) {
