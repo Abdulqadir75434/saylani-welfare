@@ -188,9 +188,10 @@ h3{
 .span1{
     color: #28a745;
 }
-@media(max-width:476px;){
+@media(max-width:776px){
     .main-1{
-        padding: 20px 0;}
+        margin-bottom: 100px;
+    }
 }
 .explore-btn{
     width: 155px;
@@ -208,16 +209,24 @@ h3{
 .main-btns{
   border: 1px solid transparent;
   background-color: #b6ef4933;
-  height: 133px;
+  height: 113px;
   border-radius: 10px;
   margin-top: 0px;
   padding: 30px;
   width: 100%;
   text-align: center;
   flex-wrap: wrap;
-  /* font-family: "Poppins", serif;
-   font-weight: 400; 
-  font-style: normal;  */
+  /*font-family: "Poppins", serif;
+    font-weight: 400; 
+    font-style: normal;  */
+}
+@media(max-width:780px){
+    .main-btns{
+        height: auto;
+        width: auto;
+        margin-top: 100px;
+    }
+
 }
 .btn-2{
     width: 305px;
@@ -226,10 +235,13 @@ h3{
     background-color: #fff;
     color: black;
     margin: 0px 0px 10px;
-    padding: 16px 24px;
+    /* padding: 16px 24px; */
     border-color: transparent;
     flex-wrap: wrap;
-
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
 }
 .btn-2:hover{
     background-color: black;
@@ -254,10 +266,13 @@ h3{
     background-color: #fff;
     color: black;
     margin: 0px 0px 10px;
-    padding: 16px 24px;
+    /* padding: 16px 24px; */
     border-color: transparent;
     flex-wrap: wrap;
-
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
 }
 .btn-4{
     width: 103px;
@@ -269,6 +284,10 @@ h3{
     padding: 16px 24px;
     border-color: transparent;
     flex-wrap: wrap;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
 }
 .btn-5{
     width: 83px;
@@ -280,6 +299,10 @@ h3{
     padding: 16px 24px;
     border-color: transparent;  
     flex-wrap: wrap;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
 }
 .btn-6{
     width: 157px;
@@ -291,6 +314,10 @@ h3{
     padding: 16px 24px;
     border-color: transparent; 
      flex-wrap: wrap;
+     font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
 }
 .btn1{
     width: 400px;
@@ -300,6 +327,18 @@ h3{
     color: black;
     margin: 0px 0px 10px;
     padding: 16px 24px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+.img-7{
+    width: 100%;
+}
+
+h2{
+ margin: 30px;
+ text-align: center;   
 }
 
 /* @media(w) */
