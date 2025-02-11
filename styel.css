@@ -83,15 +83,15 @@ li{
 .navbar {
     display: flex;
     justify-content: space-around;
-    /* align-items: center; */
     padding: 10px 20px; 
     background-color: #fff;
     border-bottom: 1px solid #ddd;
-    /* position: fixed; */
+    position: sticky; 
+    position: sticky;
      /* top: 5; */
     width: 100%;
     height: 60px;
-    z-index: 1000;
+    /* z-index: 1000; */
 }
 
 .navbar-logo {
@@ -117,7 +117,7 @@ li{
 }
 
 .navbar-links a:hover {
-    color: #007bff;
+    color:black;
     text-decoration: underline;
 }
 
@@ -214,7 +214,7 @@ h3{
   margin-top: 0px;
   padding: 30px;
   width: 100%;
-  text-align: center;
+  text-align: center; 
   flex-wrap: wrap;
   /*font-family: "Poppins", serif;
     font-weight: 400; 
@@ -337,9 +337,206 @@ h3{
 }
 
 h2{
- margin: 30px;
- text-align: center;   
+ padding-top: 50px;
+ padding-bottom: 50px;
+ text-align: center; 
+ font-weight:bold ;
+ font-size: 30px;  
 }
+
+.Welfare-box{
+    width: 200px;
+    height: 160px;
+    background-color: #b6ef4933;
+    text-align: center;
+    transform: ;
+}
+.Medical-box{
+    width: 200px;
+    height: 160px;
+    background-color: #b6ef4933;
+    text-align: center;
+}
+.Medical-box:hover{
+    transform: ;
+}
+.Online-Sadqah-box{
+    width: 200px;
+    height: 160px;
+    background-color: #b6ef4933;
+    text-align: center;
+}
+.Clean-Water-box{
+    width: 200px;
+    height: 160px;
+    background-color: #b6ef4933;
+    text-align: center;
+}
+.Education-box{
+    width: 200px;
+    height: 160px;
+    background-color: #b6ef4933;
+    text-align: center;
+}
+.Food-box{
+    width: 200px;
+    height: 160px;
+    background-color: #b6ef4933;
+    text-align: center;
+}
+h4{
+    padding-top: 20px;
+}
+.img-9{
+    margin-top: 14px;
+}
+.manu-box{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin: 8px;
+    width: 100%;
+}
+@media(max-width:940px){
+    .manu-box{
+        grid-template-columns:1fr 1fr 1fr;
+        row-gap: 8px;
+        justify-content: center;
+    }
+    
+}
+@media(max-width:700px){
+    .manu-box{
+        grid-template-columns:1fr 1fr;
+        row-gap: 8px;
+        column-gap: 5px;
+    }
+    .Welfare-box{
+        width:250px;
+        text-align: center;
+    }
+    .Online-Sadqah-box{
+        width: 250px;
+        text-align: center;
+    }
+    .Clean-Water-box{
+        width: 250px;
+        text-align: center;
+    }
+    .Medical-box{
+        width: 250px;
+        text-align: center;
+    }
+    .Education-box{
+        width: 250px;
+        text-align: center;
+    }
+    .Food-box{
+        width: 250px;
+        text-align: center;
+    }
+}
+@media(max-width:540px){
+    .manu-box{
+        grid-template-columns: 1fr;
+        row-gap: 8px;
+        column-gap: 5px;
+        text-align: center;
+        margin:auto;
+    }
+    .Welfare-box{
+        width:350px;
+        text-align: center;
+    }
+    .Online-Sadqah-box{
+        width: 350px;
+        text-align: center;
+    }
+    .Clean-Water-box{
+        width: 350px;
+        text-align: center;
+    }
+    .Medical-box{
+        width: 350px;
+        text-align: center;
+    }
+    .Education-box{
+        width: 350px;
+        text-align: center;
+    }
+    .Food-box{
+        width: 350px;
+        text-align: center;
+    }
+}
+
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    padding: 20px;
+    /* min-height: 100vh; */
+}
+
+.card {
+    width: 410px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    color:rgb(57, 55, 55);
+}
+
+.card h3 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.card button {
+    width: 100%;
+    padding: 15px;
+    background: #7cc244;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card button:hover {
+    background: #64a230;
+}
+@media (max-width:800px) {
+    .card-container {
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+    }
+}
+@media (max-width:540px) {
+    .card-container {
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+    }
+}
+
 
 /* @media(w) */
 
@@ -353,6 +550,7 @@ h2{
     }
    .navbar {
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .navbar-buttons {
