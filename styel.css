@@ -350,12 +350,14 @@ h2{
     background-color: #b6ef4933;
     text-align: center;
     transform: ;
+    border-radius: 4px;
 }
 .Medical-box{
     width: 200px;
     height: 160px;
     background-color: #b6ef4933;
     text-align: center;
+    border-radius: 4px;
 }
 .Medical-box:hover{
     transform: ;
@@ -365,24 +367,28 @@ h2{
     height: 160px;
     background-color: #b6ef4933;
     text-align: center;
+    border-radius: 4px;
 }
 .Clean-Water-box{
     width: 200px;
     height: 160px;
     background-color: #b6ef4933;
     text-align: center;
+    border-radius: 4px;
 }
 .Education-box{
     width: 200px;
     height: 160px;
     background-color: #b6ef4933;
     text-align: center;
+    border-radius: 4px;
 }
 .Food-box{
     width: 200px;
     height: 160px;
     background-color: #b6ef4933;
     text-align: center;
+    border-radius: 4px;
 }
 h4{
     padding-top: 20px;
@@ -394,7 +400,8 @@ h4{
     display: grid;
     grid-template-columns: repeat(6,1fr);
     margin: 8px;
-    width: 100%;
+    width: 95%;
+    gap: 10px;
 }
 @media(max-width:940px){
     .manu-box{
@@ -473,11 +480,12 @@ h4{
 .card-container {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 20px;
+    gap: 10px;
     flex-wrap: wrap;
     justify-content: center;
     max-width: 1200px;
-    padding: 20px;
+    /* padding: 20px; */
+    margin: 35px;
     /* min-height: 100vh; */
 }
 
@@ -524,6 +532,50 @@ h4{
 .card button:hover {
     background: #64a230;
 }
+.container {
+    width:50px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .project {
+    display: flex;
+    align-items: center;
+    /* background: #f2f2f2; */
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+    width: 48%;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:16px;
+  }
+  .icon {
+    width: 70px;
+    height: 80px;
+    background:#f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+  }
+  .content {
+    flex: 1;
+  }
+  .content h3 {
+    color: #0073e6;
+    margin: 0;
+  }
+  .img-18{
+    width:45%;
+    height: 500px;
+  }
+  .project-container{
+    /* display: flex; */
+  }
+
 @media (max-width:800px) {
     .card-container {
         grid-template-columns: repeat(2,1fr);
