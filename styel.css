@@ -628,12 +628,14 @@ h4{
      gap: 40px;
      flex-wrap: wrap;
      width: 98%;
-     height: 400px;
+     height: 450px;
      margin: 10px;
      background-color: #0d6db7;
      padding: 50px;
      background-image: url(./img/bg-1.png);
      background-repeat:no-repeat;
+     align-items: center;
+     text-align: center;
   }
   .img23{
     border: 1px solid transparent;
@@ -651,8 +653,9 @@ h4{
     display: ;
     /* flex-direction: column;  */
     align-items: center;
+    text-align: center;
     border: 2px solid transparent;
-
+    /* margin-top: 40px; */
   }
   .card-h2 {
     margin-top: 15px;
@@ -664,5 +667,22 @@ h4{
     font-size: 16px;
     color: white;
   }
+  @media (max-width:900px){
+    .services-container{
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+        height: auto;
+    }
 
+  }
+  .h4{
+   font-size: 20px;
+    color: #8dc63f;
+  }
+  .heading{
+    text-align: center;
+  }
+  .h2-2{
+    font-size: 34px;
+  }
 
