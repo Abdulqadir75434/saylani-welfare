@@ -336,7 +336,7 @@ h3{
     width: 100%;
 }
 
-h2{
+.h2-1{
  padding-top: 50px;
  padding-bottom: 50px;
  text-align: center; 
@@ -620,106 +620,49 @@ h4{
         align-items: center;
     }
 }
+
 .services-container {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    flex-wrap: wrap;
-    max-width: 90%;
-    margin: auto;
-    background-color: #0d6efd;
-    padding: 50px;
-    border-radius: 20px; 
-    position: relative;
-    overflow: hidden;
+    display: grid;
+     grid-template-columns: repeat(4,1fr);
+     justify-content: center;  
+     gap: 40px;
+     flex-wrap: wrap;
+     width: 98%;
+     height: 400px;
+     margin: 10px;
+     background-color: #0d6db7;
+     padding: 50px;
+     background-image: url(./img/bg-1.png);
+     background-repeat:no-repeat;
+  }
+  .img23{
+    border: 1px solid transparent;
+    width: 110px;
+    height: 90px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 50%;
   }
   .services-card {
-    background: white;
-    color: black;
     width: 150px;
+    height: 250px;
     padding: 20px;
-    border-radius: 50%;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    display: flex;
-    flex-direction: column; 
+    text-align: center; 
+    display: ;
+    /* flex-direction: column;  */
     align-items: center;
-  }
-  .card img {
-    width: 60px;
-    /* margin-bottom: 15px; */
+    border: 2px solid transparent;
+
   }
   .card-h2 {
-    margin: 0;
-    font-size: 24px;
-    color: #0d6efd;
+    margin-top: 15px;
+    font-size: 23px;
+    color: white;
   }
-  .card p {
+  .card-p {
     margin: 5px 0;
     font-size: 16px;
+    color: white;
   }
 
-/* .services-container {
-    display: ;
-    justify-content: center;
-    gap: 50px;
-    flex-wrap: wrap;
-    max-width: 90%;
-    margin: auto;
-    background-color: #0d6efd;
-    padding: 50px;
-    border-radius: 20px; 
-    position: relative;
-    overflow: hidden;
-  }
-  .services-card {
-    background: white;
-    color: black;
-    width: 150px;
-    
-    padding: 20px; 
-    border-radius: 50%;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    display: ;
-    flex-direction: column;
-    align-items: center;
-  }
-  .card img {
-    width: 60px;
-    margin-bottom: 15px;
-  }
-  .card h2 {
-    margin: 0;
-    font-size: 24px;
-    color: #0d6efd;
-  }
-  .card p {
-    margin: 5px 0;
-    font-size: 16px;
-  } */
 
-
-/* @media(w) */
-
-/* Responsive Design */
-@media (max-width: 1199px) {
-    .navbar-links {
-        display: none;
-    }
-    #icon2{
-        display: block;
-    }
-   .navbar {
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .navbar-buttons {
-        margin-top: 10px;
-        display: none;
-        flex-wrap: wrap;
-        gap: 5px;
-    }
-}
-/*  */
