@@ -60,14 +60,6 @@ li{
         display: block;
     }
 }
-@media(max-width:651px) {
-    .navbar-links{
-        display: none;
-    }
-    #icon2{
-        display: block;
-    }
-}
 /* @media(max-width:641px){
     .menu-icon {display: block ;}
     .nav-1{display: none;}
@@ -327,7 +319,7 @@ h3{
     font-size: 14px;
 }
 .btn1{
-    width: 400px;
+    width: 350px;
     height: 53px;
     border-radius: 10px;
     background-color: #fff;
@@ -423,6 +415,7 @@ h4{
         grid-template-columns:1fr 1fr;
         row-gap: 8px;
         column-gap: 5px;
+        margin: 20px;
     }
     .Welfare-box{
         width:250px;
@@ -673,14 +666,6 @@ h4{
     font-size: 16px;
     color: white;
   }
-  @media (max-width:900px){
-    .services-container{
-        grid-template-columns: repeat(2,1fr);
-        width: 100%;
-        height: auto;
-    }
-
-  }
   .h4{
    font-size: 20px;
     color: #8dc63f;
@@ -716,8 +701,8 @@ h4{
     font-size:14px;
     width: 90%;
     justify-content: center;
-    margin: 15px 50px 15px ;
-    height: 300px;
+    margin: 15px 50px 5px ;
+    height: 150px;
 }
 .Testimonials-p1{
     font-family: "Poppins", serif;
@@ -725,4 +710,70 @@ h4{
     font-style: normal;
     font-size:14px;
     row-gap:20px ;
+}
+.left-arrow{
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    background-color: white;text-align: center;
+}
+.right-arrow{
+    width: 40px;
+    height: 40px;
+    background-color:#8dc63f;
+    color: white;
+    border: none;
+
+}
+@media (max-width:900px){
+    .services-container{
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+        height: auto;
+    }
+    }
+    @media (max-width:650px){
+        .services-container{
+            grid-template-columns: repeat(1,1fr);
+            width: 98%;
+            height: auto;
+            justify-content: center;
+        }
+    }
+@media (max-width: 650px) {
+    .navbar-links{
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 10px;
+      background: white;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      width: 200px;
+      text-align: right;
+      padding: 10px;
+    }
+    .navbar-buttons{
+        display: none;}
+  
+    #icon2 {
+      display: block; /* Show menu icon */
+    }
+}
+@media (max-width: 650px){
+    .Testimonials{
+        width: 98%;
+        height: auto;
+        text-align: center;
+        
+    }
+    .Testimonials-card{
+        height: auto;
+        width: ;
+   }
+   .Testimonials-p2{
+      margin-bottom: 90px;
+      margin-left: 40px;
+   }
 }
