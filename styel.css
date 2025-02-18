@@ -775,6 +775,7 @@ h4{
     grid-template-columns: repeat(4,1fr);
     margin: 10px;
     row-gap: 40px;
+    font-size: 13px;
  }
  .news-card1{
     width: 300px;
@@ -821,6 +822,37 @@ h4{
     margin-left: 7px;
     margin-top: 10px;
     border-radius: 10%;
+}
+.subscription-container{
+    width: 98%;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #1d73b3;
+    background-image:url( https://saylaniwelfare.com/static/media/guide_back.3a5127e910c15a49f875.png);
+    height: 300px;
+    
+}
+.subscription-h2{
+    padding: 20px;
+    padding-top: 35px;
+    color: white;
+    font-size: 30px;
+}
+.email{
+    background-color: transparent;
+    color: rgb(155, 148, 148) ;
+    width: 400px;
+    border:1px solid white;
+    height: 50px;
+    padding: 15px;
+}
+.SUBSCRIBE-btn{
+    background-color: white;
+    color: black;
+    width: 400px;
+    border:1px solid white;
+    height: 50px;
+    padding: 15px;
 }
  @media (max-width:900px){
     .Media-card{
