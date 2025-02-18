@@ -351,6 +351,11 @@ h3{
     transform: ;
     border-radius: 4px;
 }
+.Welfare-box:hover {
+    transform: scale(1.15);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+ 
+ }
 .Medical-box{
     width: 200px;
     height: 160px;
@@ -358,9 +363,12 @@ h3{
     text-align: center;
     border-radius: 4px;
 }
-.Medical-box:hover{
-    transform: ;
-}
+.Medical-box:hover {
+    transform: scale(1.15);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+ 
+ }
+
 .Online-Sadqah-box{
     width: 200px;
     height: 160px;
@@ -368,6 +376,11 @@ h3{
     text-align: center;
     border-radius: 4px;
 }
+.Online-Sadqah-box:hover {
+    transform: scale(1.15);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+ 
+ }
 .Clean-Water-box{
     width: 200px;
     height: 160px;
@@ -375,6 +388,11 @@ h3{
     text-align: center;
     border-radius: 4px;
 }
+.Clean-Water-box:hover {
+    transform: scale(1.15);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+ 
+ }
 .Education-box{
     width: 200px;
     height: 160px;
@@ -382,6 +400,11 @@ h3{
     text-align: center;
     border-radius: 4px;
 }
+.Education-box:hover {
+    transform: scale(1.15);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+ 
+ }
 .Food-box{
     width: 200px;
     height: 160px;
@@ -389,6 +412,11 @@ h3{
     text-align: center;
     border-radius: 4px;
 }
+.Food-box:hover {
+    transform: scale(1.15);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+ 
+ }
 h4{
     padding-top: 20px;
 }
@@ -775,7 +803,10 @@ h4{
     grid-template-columns: repeat(4,1fr);
     margin: 10px;
     row-gap: 40px;
-    font-size: 13px;
+    font-size: 15px;
+ }
+ .media-h2-2{
+    font-size: 20px;
  }
  .news-card1{
     width: 300px;
@@ -828,9 +859,10 @@ h4{
     margin-top: 50px;
     text-align: center;
     background-color: #1d73b3;
-    background-image:url( https://saylaniwelfare.com/static/media/guide_back.3a5127e910c15a49f875.png);
-    height: 300px;
-    
+    background-image:url( https://saylaniwelfare.com/static/media/guide_back.3a5127e910c15a49f875.png );
+    height: 250px;
+    margin: 10px;
+    margin-bottom: 100px;   
 }
 .subscription-h2{
     padding: 20px;
@@ -840,20 +872,56 @@ h4{
 }
 .email{
     background-color: transparent;
-    color: rgb(155, 148, 148) ;
-    width: 400px;
+    color:white;
+    width: 500px;
     border:1px solid white;
     height: 50px;
     padding: 15px;
 }
+
 .SUBSCRIBE-btn{
     background-color: white;
     color: black;
-    width: 400px;
+    width: 500px;
     border:1px solid white;
     height: 50px;
     padding: 15px;
+    margin-top:10px ;
 }
+ footer{
+    position: relative;
+    background-color: #424242;
+    height: 700px;
+    margin-top: 60px;
+    width: 100%;
+    padding: 0px 80px;
+ }
+ .footer-bg-image{
+    opacity: 0.2;
+    position: absolute;
+ }
+ .footer-1{
+    display: flex;
+    flex-direction: column;
+ 
+    gap: 30px;
+ }
+ .ACCA-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ hr{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+ }
+ .footer-h1{
+    font-size: 23px;
+ }
+ .footer-2{
+    gap: 40px;
+ }
  @media (max-width:900px){
     .Media-card{
         grid-template-columns: repeat(2,1fr);
