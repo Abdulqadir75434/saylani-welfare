@@ -922,6 +922,9 @@ h4{
  .footer-2{
     gap: 40px;
  }
+ .footer-main{
+    padding-top: 60px;
+ }
  @media (max-width:900px){
     .Media-card{
         grid-template-columns: repeat(2,1fr);
